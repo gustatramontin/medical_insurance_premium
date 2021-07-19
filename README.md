@@ -39,7 +39,7 @@ This shows that people with 2 and 3 children have more expenses than the others
 
 ### Predictions
 
-I created two type of algorithm, one tries to predict the expenses values, and the other you set a expense value that if higher the person should use premium, and the algorithm, based on the classify if the person should use the premium, 
+I created two type of algorithm, one tries to predict the expenses values, and the other you set a expense value that if higher the person should use premium, and the algorithm, based on the value, classify if the person should use the premium, 
 
 For the one that predict i used Polynomial Regression, and the one that classify I used RandomForestClassifier
 
