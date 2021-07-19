@@ -1,5 +1,4 @@
 # Medical Insuranse Premium
-<hr>
 This is a Data Science project in which i have to create a algorithm to detect if the person need premium plan in Medical Insurance based on: age, bmi, number of children, sex, is smoker, and region(dataset region)
 
 ## Data Cleaning
