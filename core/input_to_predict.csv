@@ -1,0 +1,3 @@
+personid,age,sex,bmi,children,smoker,region
+1,23,male,26,0,no,southwest
+2,45,female,42,2,no,northeast
