@@ -1,5 +1,5 @@
 # Medical Insuranse Premium
-
+<hr>
 This is a Data Science project in which i have to create a algorithm to detect if the person need premium plan in Medical Insurance based on: age, bmi, number of children, sex, is smoker, and region(dataset region)
 
 ## Data Cleaning
@@ -12,13 +12,13 @@ region_northeast | region_northwest | region_southeast | region_southwest
 0 | 0 | 1 | 0
 0 | 0 | 0 | 1 
 
-1 represent the region and 0 says that it's not the region.
+**1** represent the region and **0** says that it's not the region.
 
 It's to prevent higher numerical values influence the prediction, 
 
-If northeast region  is 1 and northwest region is 2, the AI can think that northwest region is better or worse than northeast region.
+If northeast region  is **1** and northwest region is **2**, the AI can think that northwest region is better or worse than northeast region.
 
-### Analyses
+## Analyses
 
 ### Heatamp
 ![Heatmap](heatmap.png)
@@ -60,5 +60,17 @@ preferable 3.7 or higher
 or<br>
 ```pip3 install -r requirements.txt```
 
-2
+2.<br>
+Go to the `core` folder
 
+add the data in the `input_to_predict.csv` file
+
+3.<br>
+run `python3 predict.py predict` to predict expense<br>
+or<br>
+`python3 predict.py classify` to classify
+
+if you are on Windows remove '**3**' in the command
+
+4.<br>
+The output is on `output_predicted.csv` file
